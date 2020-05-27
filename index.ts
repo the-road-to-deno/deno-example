@@ -1,6 +1,6 @@
 import { serve } from 'https://deno.land/std/http/server.ts';
 
-import { mapStory } from './stories.js';
+import { mapStory } from './stories.ts';
 
 const url = 'http://hn.algolia.com/api/v1/search?query=javascript';
 
