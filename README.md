@@ -1,6 +1,6 @@
 # deno-example
 
-Showcasing how a Deno example. [Read more about it.](https://www.robinwieruch.de/deno-tutorial)
+[Read more about it.](https://www.robinwieruch.de/deno-tutorial)
 
 ## Installation
 
