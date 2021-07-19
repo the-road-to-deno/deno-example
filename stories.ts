@@ -1,4 +1,4 @@
-import { format } from 'https://deno.land/x/date_fns/index.js';
+import format from 'https://deno.land/x/date_fns/format/index.js';
 
 interface Story {
   title: string;
@@ -17,6 +17,7 @@ export const mapStory = (story: Story): FormattedStory => ({
   url: story.url,
   createdAt: format(
     new Date(story.created_at_i * 1000),
-    'yyyy-MM-dd'
+    'yyyy-MM-dd',
+    {}
   ),
 });
